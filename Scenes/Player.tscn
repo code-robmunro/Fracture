@@ -4,16 +4,13 @@
 [ext_resource path="res://Sprites/Entities/player.png" type="Texture" id=2]
 
 [sub_resource type="CapsuleShape2D" id=1]
-
 radius = 14.0
 
 [sub_resource type="AtlasTexture" id=2]
-
 atlas = ExtResource( 2 )
 region = Rect2( 0, 0, 576, 256 )
 
 [sub_resource type="Animation" id=3]
-
 resource_name = "player_idle_down"
 length = 0.02
 tracks/0/type = "value"
@@ -30,7 +27,6 @@ tracks/0/keys = {
 }
 
 [sub_resource type="Animation" id=4]
-
 resource_name = "player_idle_left"
 length = 0.02
 tracks/0/type = "value"
@@ -47,7 +43,6 @@ tracks/0/keys = {
 }
 
 [sub_resource type="Animation" id=5]
-
 resource_name = "player_idle_right"
 length = 0.02
 tracks/0/type = "value"
@@ -64,7 +59,6 @@ tracks/0/keys = {
 }
 
 [sub_resource type="Animation" id=6]
-
 resource_name = "player_idle_up"
 length = 0.02
 tracks/0/type = "value"
@@ -81,7 +75,6 @@ tracks/0/keys = {
 }
 
 [sub_resource type="Animation" id=7]
-
 resource_name = "player_walk_down"
 length = 0.7
 loop = true
@@ -99,7 +92,6 @@ tracks/0/keys = {
 }
 
 [sub_resource type="Animation" id=8]
-
 resource_name = "player_walk_left"
 length = 0.7
 loop = true
@@ -117,7 +109,6 @@ tracks/0/keys = {
 }
 
 [sub_resource type="Animation" id=9]
-
 resource_name = "player_walk_right"
 length = 0.7
 loop = true
@@ -135,7 +126,6 @@ tracks/0/keys = {
 }
 
 [sub_resource type="Animation" id=10]
-
 resource_name = "player_walk_up"
 length = 0.7
 loop = true
@@ -176,4 +166,8 @@ anims/player_walk_down = SubResource( 7 )
 anims/player_walk_left = SubResource( 8 )
 anims/player_walk_right = SubResource( 9 )
 anims/player_walk_up = SubResource( 10 )
+
+[node name="bullet_cooldown" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
 
