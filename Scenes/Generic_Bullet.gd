@@ -6,9 +6,9 @@ const BULLET_SPEED = 1000
 # signal hit(body, damage)
 
 func _ready():
-    self.look_at(get_viewport().get_mouse_position())
-    target = get_viewport().get_mouse_position() - self.position
-    origin = self.position
+    look_at(get_viewport().get_mouse_position())
+    target = get_viewport().get_mouse_position() - position
+    origin = position
     
 func free():
     queue_free()
