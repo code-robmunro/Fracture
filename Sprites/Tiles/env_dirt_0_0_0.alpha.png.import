@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/env_dirt_0_0_0.png-b76d82dc2137e32e49a65815250acf7d.stex"
+path="res://.import/env_dirt_0_0_0.alpha.png-7ed873a646e6c428b3ef26a98388356c.stex"
 
 [deps]
 
-source_file="res://Sprites/Tiles/env_dirt_0_0_0.png"
-dest_files=[ "res://.import/env_dirt_0_0_0.png-b76d82dc2137e32e49a65815250acf7d.stex" ]
+source_file="res://Sprites/Tiles/env_dirt_0_0_0.alpha.png"
+dest_files=[ "res://.import/env_dirt_0_0_0.alpha.png-7ed873a646e6c428b3ef26a98388356c.stex" ]
 
 [params]
 
