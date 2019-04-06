@@ -73,4 +73,6 @@ func _process(delta):
 
 func _physics_process(delta):
     move_and_slide(velocity.normalized() * Constants.ENTITY_BASE_SPEED)
+    $Camera2D.offset_h = $sprite.position.x
+    $Camera2D.offset_h = $sprite.position.y
 
