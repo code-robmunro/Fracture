@@ -171,3 +171,8 @@ anims/player_walk_up = SubResource( 10 )
 wait_time = 0.2
 one_shot = true
 
+[node name="camera" type="Camera2D" parent="."]
+current = true
+drag_margin_h_enabled = false
+drag_margin_v_enabled = false
+
